@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class BubbleSort{
+ public static void main(String[] args){
+	 Scanner sc = new Scanner(System.in);
+	 int total_count = Integer.parseInt(args[0]);
+	int arr[] = new int[total_count];
+	System.out.print("Enter Elements : ");
+	for(int i=0;i<total_count;i++)
+	 {
+		arr[i] = sc.nextInt();
+	}
+	for(int i=total_count;i>0;i--)
+	 {
+		for(int j=0;j<i-1;j++)
+		 {
+			if(arr[j]>arr[j+1])
+			 {
+				arr[j]+=arr[j+1];
+				arr[J+1]=arr[j]-arr[j+1];
+				arr[J]=arr[j]-arr[j+1];
+			}
+		}
+	}
+	System.out.println("Sorted element are ");
+	for(int i=0;i<total_count;i++)
+	 {
+		System.out.print(arr[i]+"\t");
+	}
+ }
+}

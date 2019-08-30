@@ -1,0 +1,8 @@
+class LoopingStatement 
+{
+	public static void main(String[] args) 
+	{
+		for(Integer i ; i <= 10; i++ )
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Variable 
+{
+	public static void main(String[] args) 
+	{
+		int num;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter number : ");
+		num = sc.nextInt();
+		System.out.println("Hexadecimal number is "+Integer.toHexString(num));
+		System.out.println("Hexadecimal number is "+Integer.toOctalString(num));
+		System.out.println("Hexadecimal number is "+Integer.toBinaryString(num));
+	}
+}

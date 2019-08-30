@@ -1,0 +1,5 @@
+(function(g){var window=this;var E9=function(a){g.qK.call(this,a);this.load()};
+g.t(E9,g.qK);E9.prototype.Hb=function(){return!1};
+E9.prototype.init=function(){var a=g.X(this.player);g.vy(a)&&a.g?this.g=new g.tU(this.player):this.g=new g.$V(this.player);g.J(this,this.g);this.g.init();g.YJ(this.player,"ux")};
+E9.prototype.hm=function(){return this.g};
+g.KU.ux=E9;})(_yt_player);
