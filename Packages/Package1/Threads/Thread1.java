@@ -11,7 +11,7 @@ class Thread1 implements Runnable{
 		for(int i=1;i<10;i++)
 		{
 			try{
-			System.out.println(i*num);
+			System.out.println(+(i*num));
 		        Thread.sleep(1000);
 			}catch(Exception e)
 			{
