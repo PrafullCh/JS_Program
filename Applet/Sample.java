@@ -17,6 +17,7 @@ public class Sample extends Applet{
         }
         public void paint(Graphics g)
         {
+            msg+="paint() ";
             g.drawString(msg,100,100);
             showStatus("Testing Applet");
         }
